@@ -1,0 +1,120 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100%;
+    background-position: bottom;
+  }
+
+  .background {
+    background-repeat: no-repeat;
+    
+    /*media quey for desktop device */
+
+    @media (min-width: 768px) {
+      body {
+    background-repeat: no-repeat;
+    }
+  }
+
+  /*media quey for mobile device */
+
+  @media (min-width: 767px) {
+    body {
+  background-repeat: no-repeat;
+  background-size: 50%;
+    }
+  }
+
+  }
+
+
+  .login {
+    cursor: pointer;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+    transition: 0.1s;
+  }
+
+.point {
+    background-color: #06970e;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+    box-shadow: 0 0 300px rgba(19, 70, 41, 0.8);
+    font-size: 50px;
+    font-family: "Open San", sans-serif;
+}
+
+.point img{
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+.login-page {
+margin: 0 auto;
+max-width: 400px;
+padding: 20px;
+}
+
+.login-page p {
+margin-bottom: 10px;
+}
+
+.login-page label {
+display: block;
+font-weight: bold;
+}
+
+.login-page input[type="text"],
+.login-page input[type="tel"],
+.login-page input[type="password"] {
+width: 100%;
+padding: 5px;
+font-size: 16px;
+}
+
+.login-page button[type="submit"] {
+background-color: #06970e;
+color: white;
+padding: 10px;
+border: none;
+cursor: pointer;
+width: 100%;
+font-size: 16px;
+}
+
+
+.login-page a {
+color: blue;
+}
+
+.create a {
+color: blue;
+}
+
+
+#email label{
+    color: black;
+}
+
+#email input{
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #06970e;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 0 0 300px rgba(1, 255, 112, 0.8);
+    backdrop-filter: blur(10px);
+}
+
+#down p{
+    color: #585c5b;
+    text-align: center;
+}
+
+.login a{
+  text-decoration: none;
+  color: white;
+}
